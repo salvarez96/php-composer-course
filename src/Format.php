@@ -8,4 +8,9 @@ class Format
   {
     return strtoupper($text);
   }
+
+  public static function toLower(string $text)
+  {
+    return strtolower($text);
+  }
 }
